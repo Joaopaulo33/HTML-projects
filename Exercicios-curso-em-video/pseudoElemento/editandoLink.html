@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color:red;
+            /* tira o sublinhado */
+            text-decoration: none; 
+        }
+        a:visited{
+            color:green
+        }
+        a:hover{
+            color:orange;
+            text-decoration: underline;
+            font-size: 40px;
+        }
+
+        a:active{
+            color:yellow;
+        }
+
+        /* a::after{
+            content: '←';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        a::before{
+            content:'→' 
+        } */
+
+        .especial::after{
+            content: '←';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        .especial::before{
+            content:'→' 
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+       
+            <li> <a href ="https://github.com/Joaopaulo33">Respositório Github</a></li>
+     
+        
+            <li><a href="https://www.instagram.com/" class="especial">instagram</a></li>
+        
+            <li><a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-cardoso-dos-santos-02979917a/">linkedin</a></li>
+       
+    </ul>
+</body>
+</html>
